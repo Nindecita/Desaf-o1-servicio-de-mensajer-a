@@ -1,0 +1,106 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* SECTION USER*/
+.contacts-principal {
+  display: flex;
+  border: #bec1bb solid;
+  padding-top: 1rem;
+}
+
+.section-contacts {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  padding: 10px;
+  border-right: #bec1bb solid;
+}
+
+.section-contacts h3 {
+  font-size: 16px medium;
+}
+
+.section-contacts p {
+  font-size: 14px small;
+}
+
+.user {
+  display: flex;
+  justify-content: space-between;
+  border-top: #bec1bb solid;
+  padding-top: 10px;
+  gap: 1rem;
+}
+
+.user-text {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.img-maria {
+  border-radius: 50%;
+  width: 60px;
+  margin-bottom: 10px;
+}
+
+.icons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  padding-top: 1rem;
+  color: #bec1bb;
+}
+
+/*SECTION NEW CHAT*/
+.new-chat {
+  display: flex;
+  padding: 32px 32px;
+  justify-content: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-top: #bec1bb solid;
+}
+
+button {
+  background-color: #a491d2;
+  color: #fff;
+  height: 3rem;
+  width: 12rem;
+}
+
+/*SECTION USERS*/
+
+.imgs-users {
+  border-radius: 50%;
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+/*SECTION PRINCIPAL*/
+.section-principal {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-principal {
+  width: 300px;
+}
+
+.section-principal p, h1 {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0%;
+}
+
+.comments {
+  display: flex;
+  justify-content: flex-start;
+}
