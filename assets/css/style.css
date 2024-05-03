@@ -65,13 +65,19 @@ body {
   border-top: #bec1bb solid;
 }
 
-button {
+.button {
   background-color: #a491d2;
   color: #fff;
   height: 3rem;
   width: 12rem;
 }
 
+.button:hover {
+  background-color: #d4dcff;
+}
+.button:active {
+  background-color: #bec1bb;
+}
 /*SECTION USERS*/
 
 .imgs-users {
@@ -93,8 +99,9 @@ button {
   width: 300px;
 }
 
-.section-principal p, h1 {
-  display:flex;
+.section-principal p,
+h1 {
+  display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 0%;
